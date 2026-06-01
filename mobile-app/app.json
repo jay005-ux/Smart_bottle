@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Smart Bottle Parent",
+    "slug": "smart-bottle-parent",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.smartbottle.parent"
+    },
+    "extra": {
+      "apiBaseUrl": "http://192.168.18.73:8000/api/",
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-notifications",
+      "expo-background-task"
+    ]
+  }
+}

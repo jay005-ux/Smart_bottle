@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+my_venv/
+venv/
+.env
+db.sqlite3
+
+# Raspberry Pi
+calibration.json
+calibration_points.json
+smart_bottle_state.json
+offline_payloads.jsonl
+
+# Node / React / Expo
+node_modules/
+mobile-app/node_modules/
+frontend/build/
+mobile-app/dist/
+mobile-app/.expo/
+frontend/npm
+frontend/react-scripts
+frontend/frontend@0.1.0
+
+# Old local experiments not part of deployment repo
+Hello/
+hydration/
+/src/
+
+# OS
+.DS_Store
+Thumbs.db
