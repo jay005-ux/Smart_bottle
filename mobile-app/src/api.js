@@ -4,7 +4,7 @@ import Constants from "expo-constants";
 const configuredUrl =
   process.env.EXPO_PUBLIC_API_BASE_URL ||
   Constants.expoConfig?.extra?.apiBaseUrl ||
-  "http://192.168.18.73:8000/api/";
+  "http://54.174.213.77:8000/api/";
 
 export const API_BASE_URL = configuredUrl.endsWith("/")
   ? configuredUrl
